@@ -17,6 +17,8 @@
     "start": "vite"
   },
   "dependencies": {
+    "firebase": "^11.1.0",
+    "openai": "^4.77.3",
     "pinia": "^2.3.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"

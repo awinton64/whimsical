@@ -1,29 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+// App level imports and setup will go here
+</script>
 
 <template>
   <div class="min-h-screen bg-gray-100 p-4">
-    <h1 class="text-3xl font-bold text-blue-600 mb-4">Hello Tailwind!</h1>
-
-    <!-- Tailwind Test Elements -->
-    <div class="flex gap-4 mb-4">
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        Blue Button
-      </button>
-      <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
-        Green Button
-      </button>
-    </div>
-
-    <div class="grid grid-cols-2 gap-4">
-      <div class="bg-white shadow-lg rounded-lg p-6">
-        <h2 class="text-xl font-semibold text-gray-800">Card 1</h2>
-        <p class="text-gray-600">This card should have a white background and shadow</p>
-      </div>
-      <div class="bg-white shadow-lg rounded-lg p-6">
-        <h2 class="text-xl font-semibold text-gray-800">Card 2</h2>
-        <p class="text-gray-600">If you see this styled, Tailwind is working!</p>
-      </div>
-    </div>
+    <h1 class="text-3xl font-bold text-blue-600 mb-4">Whimsical Slides</h1>
+    <!-- Main content will go here -->
   </div>
 </template>
 
