@@ -1,23 +1,30 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <div class="min-h-screen bg-gray-100 p-4">
+    <h1 class="text-3xl font-bold text-blue-600 mb-4">Hello Tailwind!</h1>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+    <!-- Tailwind Test Elements -->
+    <div class="flex gap-4 mb-4">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Blue Button
+      </button>
+      <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+        Green Button
+      </button>
     </div>
-  </header>
 
-  <RouterView />
+    <div class="grid grid-cols-2 gap-4">
+      <div class="bg-white shadow-lg rounded-lg p-6">
+        <h2 class="text-xl font-semibold text-gray-800">Card 1</h2>
+        <p class="text-gray-600">This card should have a white background and shadow</p>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6">
+        <h2 class="text-xl font-semibold text-gray-800">Card 2</h2>
+        <p class="text-gray-600">If you see this styled, Tailwind is working!</p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style scoped>
